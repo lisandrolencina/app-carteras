@@ -1,0 +1,63 @@
+@use 'variables';
+
+
+#containerPrincipalCorazon{
+    width: 90%;
+    height: 500px;
+    border-top-left-radius: 40px;
+    border-top-right-radius:  40px;
+    box-shadow: 0 10px 30px #000;
+    margin: 20px;
+    box-shadow: 0 10px 20px #000;
+    z-index: 20;
+}
+
+.filter{
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243,243,243,0.2);
+}
+
+
+.bolsoCorazon{
+    width: 90px;
+}
+
+
+.containerCorazon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -110px;
+    
+}
+
+
+
+.btn-corazon{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 60px;
+    left: 85%;
+    display: none;
+}
+
+.btn-corazon1{
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+}
+
+.linea2{
+    
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}

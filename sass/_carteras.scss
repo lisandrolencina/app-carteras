@@ -1,0 +1,48 @@
+@use 'variables';
+
+.container-carteras{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.card-carteras{
+
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 20px;
+    background-color:variables.$card;
+    display: block;
+}
+.card-carteras img{
+    
+    width: 140px;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-carteras:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card-carteras h3{
+    margin-left: 50px;
+    margin-top: -5px;
+    font-family: variables.$Playfair;
+    font-weight: 700;
+}
+
+.card-carteras .shopnow{
+    margin-left: 50px;
+    margin-top: -5px;
+    font-size: 10px;
+    text-decoration:  underline;
+    font-family: variables.$Work;
+    font-weight: 800;
+
+}

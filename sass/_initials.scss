@@ -1,0 +1,35 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 375px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+    
+}
+
+body{
+    background-color: rgb(116, 116, 116);
+}
+
+h2{
+    width: 190px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    height: 30px;
+    border: 1px solid black;
+   
+    
+}
+
+h3{
+   margin: 20px;
+   
+}

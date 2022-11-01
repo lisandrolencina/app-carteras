@@ -1,0 +1,95 @@
+@use 'variables';
+
+.containerProducto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.agregar-cartera-img{
+    width: 120px;
+}
+
+.title-artsy{
+    font-family: variables.$Playfair;
+}
+.wallet{
+    font-family: variables.$Work;
+}
+.style{
+    font-family: variables.$Work;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.precio{
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-weight: 1000;
+    
+   
+
+}
+
+.buy {
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: variables.$Work;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.add{
+    font-family: variables.$Work;
+    text-decoration:  underline;
+    
+}
+
+.descripcion{
+    font-family: variables.$Work;
+    opacity: 0.6;
+    font-size: 15px;
+    margin: 30px 20px;
+    align-items: center;
+}
+.material h4{
+    color: black;
+}
+.material{
+    font-family: variables.$Work;
+    color: blak;
+    font-size: 15px;
+    margin: 5px 0px;
+    align-items: center;  
+}
+
+.h4{
+    margin: 0 0px;
+    font-family: variables.$Work;
+}
+
+.containerDescripcion{
+     position: relative;
+     bottom: -40px;
+}
+
+
+.cerrarContenidoCartera{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+
+#btnCartera{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}

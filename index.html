@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App-Mobile-Carteras</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <main>
+
+
+        <div class="menu-navegacion">
+            <div class="menu-navegacion-1">
+            <div class="icono"> <img src="img/home.png" alt=""></div>
+            <div class="icono"><img src="img/lupa.png" alt="" id="lupa"></div>
+            <div class="icono"><img src="img/corazon.png" alt="" id="corazon"></div>
+            <div class="icono"><img src="img/carrito.png" alt=""></div>
+        </div>
+        </div>
+
+
+        <header>
+        <nav class="nav">
+            <div class="nav1">
+                <span class="color-menu"> <img src="img/nav-button.PNG" alt=""></span>
+                <h1>bagzz</h1>
+            </div>
+            <div class="nav2">
+                <img src="img/cara-nav.PNG" alt="" class="img-nav">
+            </div>
+
+        </nav>
+    </header>
+
+  
+    <!--BOTON CARTERAS-->
+   <div class="btn" >
+    <button class="btn-1" id="btnCerrar">x</button>
+    </div>
+     <!--DESCRIPCION CARTERAS-->
+   <div id="descripcionDeCarteras"></div>
+    <!--LUPA-->
+    <div class="btnLupa" id="btnLupa">
+        <button class="btnLupa2" id="btnCerrarLupa">x</button>
+    </div>
+   <div id="contenidoLupa" class="lupa">
+   </div>
+
+
+
+
+   </div>
+
+ <!--carrousel-->
+   <div class="container" id="slider">
+    <div class="slider">
+        <div class="slider_content">
+            <img src="img/cartera1.jpg" alt="">
+            
+        </div>
+        <div class="slider_content">
+            <img src="img/cartera2.jpg" alt="">
+           
+        </div>
+    </div>
+    <div class="controls">
+        <div class="control prev"><i class="fa-solid fa-left-long"></i></div>
+        <div class="control next"><i class="fa-solid fa-right-long"></i></div>
+    </div>
+</div>
+    
+
+    <!--CORAZON -->
+  
+    <div class="btn-corazon" id="btnCerrarCorazon" >
+    <button class="btn-corazon1" >x</button>
+    </div>
+    <div id="contenidoCoarazon">
+    </div>
+    
+    <!--CARTERAS -->
+
+    <div class="container-carteras" id="carteras">
+        <div class="container-carteras-1">
+            <div class="card-carteras" id="botonCartera">
+                <img src="img/bolso-1.png" alt="">
+                <h3>Artly</h2>
+                    <h3 class="shopnow">SHOP NOW</h2>
+                    
+            </div>
+            <div class="card-carteras">
+                <img src="img/bolso2.png" alt="">
+                <h3>Berkely</h2>
+                <h3 class="shopnow">SHOP NOW</h2>
+            </div>
+            
+        </div>
+   
+        <div class="container-carteras-1">
+            <div class="card-carteras"><img src="img/bolso2.png" alt="">
+                <h3>Berkely</h2>
+                    <h3 class="shopnow">SHOP NOW</h2>
+                </div>
+
+            <div class="card-carteras"><img src="img/bolso-1.png" alt="">
+                <h3>Artly</h2>
+                    <h3 class="shopnow">SHOP NOW</h2>
+                </div>
+           
+        </div>
+    </div>
+   <!--CARTERASDescripcion -->
+    
+   
+    <div class="cerrarContenidoCartera">
+    <button id="btnCartera">x</button>
+    </div>
+     <section id="descripcCarteraid">
+     </section>
+
+
+
+
+
+    <h2 id="titles" >CHECK ALL LATEST</h2>
+
+    <h3 id="titles-2">Shop by categories</h3>
+    <div class="conteiner-categorias" id="categorias">
+        <div class="container-categorias-1">
+            <div class="card-categorias"><img src="img/s1.png" alt=""></div>
+            <div class="card-categorias"><img src="img/s3.png" alt=""></div>
+            
+        </div>
+        <div class="container-categorias-1">
+            <div class="card-categorias"><img src="img/s2.png" alt=""></div>
+            <div class="card-categorias"><img src="img/s4.png" alt=""></div>
+            
+        </div>
+    </div>
+
+    <h2 class="browse" id="titles-3">Browse All Categories</h2>
+    <div class="fin"></div>
+    </main>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+@use 'initials';
+@use 'variables';
+@use 'nav';
+@use 'carrousel';
+@use 'carteras';
+@use 'categorias';
+@use 'menunav';
+@use 'agregarCarteras';
+@use 'corazon';
+@use 'contenidoLupa';
+@use 'contenidoCartera';
+.fin{
+    padding: 30px;
+}
+
+#btnCerrar{
+    display: none;
+}

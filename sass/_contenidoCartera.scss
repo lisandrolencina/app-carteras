@@ -1,0 +1,28 @@
+@use 'variables';
+
+
+
+.descripcionCartera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-contenidoCartera{
+    width: 120px;
+    margin: 0 15px;
+}
+.descripcionCartera3{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px 10px;
+}
+
+.descripcionCartera2 h4{
+    font-family: variables.$Playfair;
+}
+.wallet{
+    font-family: variables.$Work;
+}
